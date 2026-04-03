@@ -137,7 +137,7 @@ class StartScene extends Phaser.Scene {
         }).setOrigin(0.5);
 
         // 开始按钮
-        const startButton = this.add.text(200, 350, '开始答题', {
+        const startButton = this.add.text(200, 320, '开始答题', {
             fontSize: '32px',
             fill: '#fff',
             backgroundColor: '#764ba2',
@@ -435,10 +435,41 @@ class ResultScene extends Phaser.Scene {
             this.scene.start('StartScene');
         });
 
-        // 分享提示
-        this.add.text(200, 570, '分享给你的朋友，看看谁分更高！', {
+        // 分享按钮
+        const shareButton = this.add.text(200, 560, '📤 分享战绩', {
+            fontSize: '24px',
+            fill: '#fff',
+            backgroundColor: '#4CAF50',
+            padding: { x: 20, y: 10 }
+        }).setOrigin(0.5);
+
+        shareButton.setInteractive({ useHandCursor: true });
+        shareButton.on('pointerover', () => shareButton.setStyle({ backgroundColor: '#45a049' }));
+        shareButton.on('pointerout', () => shareButton.setStyle({ backgroundColor: '#4CAF50' }));
+        shareButton.on('pointerdown', () => {
+            const shareText = `🎮 我在AI答题大师得了${this.finalScore}分！\n🤖 AI实时出题，你能答对几题？\n👉 https://371166758-qq.github.io/ai-quiz-game\n\n#AI答题 #知识竞赛`;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: 'AI答题大师',
+                    text: shareText,
+                    url: 'https://371166758-qq.github.io/ai-quiz-game'
+                }).catch(() => {});
+            } else {
+                // 复制到剪贴板
+                navigator.clipboard.writeText(shareText).then(() => {
+                    alert('已复制到剪贴板！快去分享给朋友吧！');
+                }).catch(() => {
+                    alert(shareText);
+                });
+            }
+        });
+
+        // 挑战好友
+        this.add.text(200, 620, '邀请好友PK，赢双倍积分！', {
             fontSize: '16px',
-            fill: '#fff'
+            fill: '#ffd700',
+            fontStyle: 'bold'
         }).setOrigin(0.5);
     }
 }
