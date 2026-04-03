@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-quiz.openclaw.ai/sitemap.xml
