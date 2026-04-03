@@ -3,28 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI答题大师</title>
+    <title>AI答题大师 - 智能知识问答游戏 | 在线答题挑战</title>
+    <meta name="description" content="AI驱动的知识问答游戏，涵盖科技、历史、自然三大领域。智能难度调整，AI实时出题，挑战你的知识极限！">
+    <meta name="keywords" content="AI答题,知识问答,在线答题,智力挑战,AI出题,科技知识,历史知识,自然科学">
+    <meta name="author" content="清风 AI">
+    <meta property="og:title" content="AI答题大师 - 智能知识问答游戏">
+    <meta property="og:description" content="AI驱动的知识问答游戏，挑战你的知识极限！">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://371166758-qq.github.io/ai-quiz-game">
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?YOUR_BAIDU_ANALYTICS_ID";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0;
-            padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             min-height: 100vh;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            font-family: 'Arial', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 20px;
+        }
+        .wrapper {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .ad-sidebar {
+            width: 160px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .ad-box {
+            background: rgba(255,255,255,0.95);
+            border-radius: 8px;
+            padding: 10px;
+            min-height: 300px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 12px;
         }
         #game-container {
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             border-radius: 10px;
             overflow: hidden;
+            background: #fff;
+        }
+        .share-section {
+            text-align: center;
+            padding: 15px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .share-btn {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 5px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 13px;
+            transition: all 0.3s;
+        }
+        .share-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        .share-btn.weibo { background: #E6162D; }
+        .share-btn.wechat { background: #07C160; }
+        @media (max-width: 900px) {
+            .ad-sidebar { display: none; }
+            .wrapper { flex-direction: column; align-items: center; }
         }
     </style>
 </head>
 <body>
-    <div id="game-container"></div>
+    <div class="wrapper">
+        <div class="ad-sidebar">
+            <div class="ad-box" id="ad-left-1">广告位招租<br/>联系微信</div>
+            <div class="ad-box" id="ad-left-2">广告位招租</div>
+        </div>
+        
+        <div>
+            <div id="game-container"></div>
+            <div class="share-section">
+                <a href="javascript:void(0)" onclick="shareToWeibo()" class="share-btn weibo">分享到微博</a>
+                <a href="javascript:void(0)" onclick="copyLink()" class="share-btn">复制链接</a>
+            </div>
+        </div>
+        
+        <div class="ad-sidebar">
+            <div class="ad-box" id="ad-right-1">广告位招租</div>
+            <div class="ad-box" id="ad-right-2">广告位招租</div>
+        </div>
+    </div>
+    
     <script src="game.js"></script>
+    <script>
+        function shareToWeibo() {
+            var url = encodeURIComponent(window.location.href);
+            var title = encodeURIComponent('我在玩AI答题大师，你能答对几题？');
+            window.open('https://service.weibo.com/share/share.php?url='+url+'&title='+title, '_blank');
+        }
+        function copyLink() {
+            var input = document.createElement('input');
+            input.value = window.location.href;
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            alert('链接已复制！快去分享给朋友吧！');
+        }
+    </script>
 </body>
 </html>
