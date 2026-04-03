@@ -1,0 +1,42 @@
+[
+  {
+    "question": "人体最大的器官是什么？",
+    "options": ["心脏", "肝脏", "皮肤", "大脑"],
+    "answer": 2,
+    "explanation": "皮肤是人体最大的器官，成人皮肤总面积约1.5-2平方米，重量约占体重的16%。",
+    "category": "medical",
+    "difficulty": "easy"
+  },
+  {
+    "question": "正常成年人的心率范围是多少？",
+    "options": ["40-60次/分", "60-100次/分", "100-120次/分", "120-140次/分"],
+    "answer": 1,
+    "explanation": "正常成年人在安静状态下的心率范围为60-100次/分钟。",
+    "category": "medical",
+    "difficulty": "easy"
+  },
+  {
+    "question": "糖尿病患者的典型症状\"三多一少\"是指？",
+    "options": ["多饮、多食、多尿、体重减少", "多饮、多睡、多尿、体重减少", "多食、多睡、多尿、体重增加", "多饮、多食、多睡、体重减少"],
+    "answer": 0,
+    "explanation": "糖尿病典型症状为多饮、多食、多尿和体重减轻，简称\"三多一少\"。",
+    "category": "medical",
+    "difficulty": "medium"
+  },
+  {
+    "question": "下列哪种维生素可以促进钙的吸收？",
+    "options": ["维生素A", "维生素B", "维生素C", "维生素D"],
+    "answer": 3,
+    "explanation": "维生素D可以促进小肠对钙、磷的吸收，缺乏时会导致佝偻病或骨质疏松。",
+    "category": "medical",
+    "difficulty": "medium"
+  },
+  {
+    "question": "急救CAB原则中的A代表什么？",
+    "options": ["Airway（气道）", "Air（空气）", "Artery（动脉）", "Action（行动）"],
+    "answer": 0,
+    "explanation": "CAB原则：C-Circulation（循环）、A-Airway（气道）、B-Breathing（呼吸）。",
+    "category": "medical",
+    "difficulty": "hard"
+  }
+]
