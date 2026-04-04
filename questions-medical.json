@@ -38,5 +38,45 @@
     "explanation": "CAB原则：C-Circulation（循环）、A-Airway（气道）、B-Breathing（呼吸）。",
     "category": "medical",
     "difficulty": "hard"
+  },
+  {
+    "question": "人体有多少块骨头？",
+    "options": ["186块", "206块", "226块", "256块"],
+    "answer": 1,
+    "explanation": "成年人全身共有206块骨头，儿童的骨头数量比成人多，长大后部分骨头会愈合。",
+    "category": "medical",
+    "difficulty": "easy"
+  },
+  {
+    "question": "下列哪个器官不属于消化系统？",
+    "options": ["胃", "肝脏", "脾脏", "胰腺"],
+    "answer": 2,
+    "explanation": "脾脏属于淋巴系统，主要功能是过滤血液和储存血液，不属于消化系统。",
+    "category": "medical",
+    "difficulty": "medium"
+  },
+  {
+    "question": "阿司匹林的主要作用是什么？",
+    "options": ["降血压", "降血糖", "解热镇痛", "抗抑郁"],
+    "answer": 2,
+    "explanation": "阿司匹林是一种非甾体抗炎药，主要用于解热、镇痛和抗炎，小剂量还可抗血小板聚集。",
+    "category": "medical",
+    "difficulty": "medium"
+  },
+  {
+    "question": "人体最大的内分泌腺是什么？",
+    "options": ["肾上腺", "甲状腺", "垂体", "胰腺"],
+    "answer": 1,
+    "explanation": "甲状腺是人体最大的内分泌腺，重约20-30克，分泌甲状腺激素调节新陈代谢。",
+    "category": "medical",
+    "difficulty": "hard"
+  },
+  {
+    "question": "O型血被称为\"万能供血者\"的原因是？",
+    "options": ["红细胞上无A、B抗原", "血浆中无抗A、抗B抗体", "红细胞上A、B抗原都有", "含量最多"],
+    "answer": 0,
+    "explanation": "O型血的红细胞上没有A抗原和B抗原，输给其他血型的人不会发生凝集反应。",
+    "category": "medical",
+    "difficulty": "hard"
   }
 ]
