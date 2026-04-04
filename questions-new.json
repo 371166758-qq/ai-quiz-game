@@ -1,7 +1,12 @@
 [
   {
     "question": "AI人工智能的英文全称是什么？",
-    "options": ["Artificial Intelligence", "Auto Intelligence", "Advanced Internet", "Artificial Internet"],
+    "options": [
+      "Artificial Intelligence",
+      "Auto Intelligence",
+      "Advanced Internet",
+      "Artificial Internet"
+    ],
     "answer": 0,
     "explanation": "AI是Artificial Intelligence的缩写，意为人工智能。",
     "category": "tech",
@@ -9,7 +14,12 @@
   },
   {
     "question": "ChatGPT是哪个公司开发的？",
-    "options": ["Google", "Microsoft", "OpenAI", "Meta"],
+    "options": [
+      "Google",
+      "Microsoft",
+      "OpenAI",
+      "Meta"
+    ],
     "answer": 2,
     "explanation": "ChatGPT由OpenAI公司开发，是目前最流行的AI对话系统。",
     "category": "tech",
@@ -17,7 +27,12 @@
   },
   {
     "question": "5G网络的\"G\"代表什么？",
-    "options": ["Giga", "Generation", "Global", "Gigabyte"],
+    "options": [
+      "Giga",
+      "Generation",
+      "Global",
+      "Gigabyte"
+    ],
     "answer": 1,
     "explanation": "G代表Generation（代），5G是第五代移动通信技术。",
     "category": "tech",
@@ -25,7 +40,12 @@
   },
   {
     "question": "世界上第一台电子计算机叫什么？",
-    "options": ["UNIVAC", "ENIAC", "IBM PC", "Apple I"],
+    "options": [
+      "UNIVAC",
+      "ENIAC",
+      "IBM PC",
+      "Apple I"
+    ],
     "answer": 1,
     "explanation": "ENIAC（电子数字积分计算机）于1946年诞生，是世界上第一台电子计算机。",
     "category": "tech",
@@ -33,7 +53,12 @@
   },
   {
     "question": "Python语言的名字来源于？",
-    "options": ["蟒蛇", "英国喜剧团体", "希腊神话", "发明者名字"],
+    "options": [
+      "蟒蛇",
+      "英国喜剧团体",
+      "希腊神话",
+      "发明者名字"
+    ],
     "answer": 1,
     "explanation": "Python作者Guido van Rossum以英国喜剧团体Monty Python命名。",
     "category": "tech",
@@ -41,7 +66,12 @@
   },
   {
     "question": "区块链技术的核心特点是？",
-    "options": ["中心化", "去中心化", "单一节点", "高速处理"],
+    "options": [
+      "中心化",
+      "去中心化",
+      "单一节点",
+      "高速处理"
+    ],
     "answer": 1,
     "explanation": "区块链是去中心化的分布式账本技术，数据不可篡改。",
     "category": "tech",
@@ -49,7 +79,12 @@
   },
   {
     "question": "元宇宙(Metaverse)一词最早出现在哪部小说？",
-    "options": ["1984", "雪崩", "黑客帝国", "神经漫游者"],
+    "options": [
+      "1984",
+      "雪崩",
+      "黑客帝国",
+      "神经漫游者"
+    ],
     "answer": 1,
     "explanation": "元宇宙概念来自尼尔·斯蒂芬森1992年的科幻小说《雪崩》。",
     "category": "tech",
@@ -57,7 +92,12 @@
   },
   {
     "question": "深度学习中，\"深度\"指的是？",
-    "options": ["数据量大", "神经网络层数多", "训练时间长", "计算复杂"],
+    "options": [
+      "数据量大",
+      "神经网络层数多",
+      "训练时间长",
+      "计算复杂"
+    ],
     "answer": 1,
     "explanation": "深度学习的\"深度\"指神经网络有多层隐藏层，能学习更复杂的特征。",
     "category": "tech",
@@ -65,7 +105,12 @@
   },
   {
     "question": "量子计算机使用什么作为计算单位？",
-    "options": ["比特", "量子比特", "字节", "晶体管"],
+    "options": [
+      "比特",
+      "量子比特",
+      "字节",
+      "晶体管"
+    ],
     "answer": 1,
     "explanation": "量子计算机使用量子比特(qubit)进行计算，可以同时处于0和1的叠加态。",
     "category": "tech",
@@ -73,7 +118,12 @@
   },
   {
     "question": "NFT的全称是什么？",
-    "options": ["Non-Fungible Token", "New Financial Technology", "Network File Transfer", "Next Future Tech"],
+    "options": [
+      "Non-Fungible Token",
+      "New Financial Technology",
+      "Network File Transfer",
+      "Next Future Tech"
+    ],
     "answer": 0,
     "explanation": "NFT是Non-Fungible Token（非同质化代币）的缩写，用于数字资产确权。",
     "category": "tech",
@@ -81,7 +131,12 @@
   },
   {
     "question": "中国四大发明不包括下列哪项？",
-    "options": ["造纸术", "印刷术", "瓷器", "火药"],
+    "options": [
+      "造纸术",
+      "印刷术",
+      "瓷器",
+      "火药"
+    ],
     "answer": 2,
     "explanation": "四大发明是造纸术、印刷术、火药、指南针，瓷器不在其中。",
     "category": "history",
@@ -89,7 +144,12 @@
   },
   {
     "question": "秦始皇统一六国是在哪一年？",
-    "options": ["公元前230年", "公元前221年", "公元前210年", "公元前202年"],
+    "options": [
+      "公元前230年",
+      "公元前221年",
+      "公元前210年",
+      "公元前202年"
+    ],
     "answer": 1,
     "explanation": "公元前221年，秦王嬴政统一六国，建立秦朝。",
     "category": "history",
@@ -97,7 +157,12 @@
   },
   {
     "question": "丝绸之路是谁开辟的？",
-    "options": ["郑和", "张骞", "玄奘", "班超"],
+    "options": [
+      "郑和",
+      "张骞",
+      "玄奘",
+      "班超"
+    ],
     "answer": 1,
     "explanation": "西汉张骞出使西域，开辟了丝绸之路，促进了东西方文化交流。",
     "category": "history",
@@ -105,7 +170,12 @@
   },
   {
     "question": "《史记》的作者是谁？",
-    "options": ["司马光", "司马迁", "班固", "陈寿"],
+    "options": [
+      "司马光",
+      "司马迁",
+      "班固",
+      "陈寿"
+    ],
     "answer": 1,
     "explanation": "《史记》由西汉司马迁撰写，是中国第一部纪传体通史。",
     "category": "history",
@@ -113,7 +183,12 @@
   },
   {
     "question": "唐朝的开国皇帝是谁？",
-    "options": ["李世民", "李渊", "李治", "李隆基"],
+    "options": [
+      "李世民",
+      "李渊",
+      "李治",
+      "李隆基"
+    ],
     "answer": 1,
     "explanation": "唐朝开国皇帝是李渊（唐高祖），李世民是第二位皇帝（唐太宗）。",
     "category": "history",
@@ -121,7 +196,12 @@
   },
   {
     "question": "郑和下西洋最远到达哪里？",
-    "options": ["印度", "阿拉伯", "非洲东海岸", "欧洲"],
+    "options": [
+      "印度",
+      "阿拉伯",
+      "非洲东海岸",
+      "欧洲"
+    ],
     "answer": 2,
     "explanation": "郑和七下西洋，最远到达非洲东海岸和红海沿岸。",
     "category": "history",
@@ -129,7 +209,12 @@
   },
   {
     "question": "戊戌变法发生在哪一年？",
-    "options": ["1894年", "1898年", "1900年", "1911年"],
+    "options": [
+      "1894年",
+      "1898年",
+      "1900年",
+      "1911年"
+    ],
     "answer": 1,
     "explanation": "戊戌变法发生在1898年（戊戌年），又称百日维新。",
     "category": "history",
@@ -137,7 +222,12 @@
   },
   {
     "question": "世界上面积最大的国家是？",
-    "options": ["中国", "美国", "加拿大", "俄罗斯"],
+    "options": [
+      "中国",
+      "美国",
+      "加拿大",
+      "俄罗斯"
+    ],
     "answer": 3,
     "explanation": "俄罗斯面积约1709万平方公里，是世界面积最大的国家。",
     "category": "nature",
@@ -145,7 +235,12 @@
   },
   {
     "question": "光合作用产生的气体是？",
-    "options": ["氧气", "二氧化碳", "氮气", "氢气"],
+    "options": [
+      "氧气",
+      "二氧化碳",
+      "氮气",
+      "氢气"
+    ],
     "answer": 0,
     "explanation": "光合作用吸收二氧化碳，释放氧气，是地球氧气的主要来源。",
     "category": "nature",
@@ -153,10 +248,145 @@
   },
   {
     "question": "地球上最深的海沟是？",
-    "options": ["日本海沟", "马里亚纳海沟", "菲律宾海沟", "秘鲁-智利海沟"],
+    "options": [
+      "日本海沟",
+      "马里亚纳海沟",
+      "菲律宾海沟",
+      "秘鲁-智利海沟"
+    ],
     "answer": 1,
     "explanation": "马里亚纳海沟深约11034米，是地球上最深的海沟。",
     "category": "nature",
     "difficulty": "medium"
+  },
+  {
+    "question": "DeepSeek是哪个国家的AI公司？",
+    "options": [
+      "美国",
+      "中国",
+      "英国",
+      "日本"
+    ],
+    "answer": 1,
+    "explanation": "DeepSeek是中国AI公司深度求索开发的大语言模型，2024年开源后引起全球关注。",
+    "category": "tech",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Sora是哪个公司推出的AI视频生成模型？",
+    "options": [
+      "Google",
+      "OpenAI",
+      "Meta",
+      "字节跳动"
+    ],
+    "answer": 1,
+    "explanation": "Sora是OpenAI于2024年推出的文本生成视频模型，可生成高质量短视频。",
+    "category": "tech",
+    "difficulty": "medium"
+  },
+  {
+    "question": "2024年，哪个AI模型率先实现了接近人类水平的编程能力？",
+    "options": [
+      "GPT-3",
+      "Claude 3.5 Sonnet",
+      "Gemini 1.0",
+      "LLaMA 2"
+    ],
+    "answer": 1,
+    "explanation": "Claude 3.5 Sonnet在编程 benchmarks上表现优异，被认为接近人类水平。",
+    "category": "tech",
+    "difficulty": "hard"
+  },
+  {
+    "question": "世界上最高的山峰是？",
+    "options": [
+      "乔戈里峰",
+      "珠穆朗玛峰",
+      "干城章嘉峰",
+      "洛子峰"
+    ],
+    "answer": 1,
+    "explanation": "珠穆朗玛峰高8848.86米，是世界第一高峰，位于中国与尼泊尔边境。",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "question": "长江是世界第几长河？",
+    "options": [
+      "第一",
+      "第二",
+      "第三",
+      "第四"
+    ],
+    "answer": 2,
+    "explanation": "长江全长6300多公里，仅次于尼罗河和亚马逊河，是世界第三长河。",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "question": "大熊猫的主要食物是？",
+    "options": [
+      "竹笋",
+      "竹叶",
+      "竹子各部位",
+      "水果"
+    ],
+    "answer": 2,
+    "explanation": "大熊猫以竹子为主食，包括竹笋、竹叶、竹竿等，占其食物的99%。",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "question": "中国\"四大名著\"不包括下列哪部作品？",
+    "options": [
+      "西游记",
+      "红楼梦",
+      "聊斋志异",
+      "三国演义"
+    ],
+    "answer": 2,
+    "explanation": "四大名著是《红楼梦》《西游记》《水浒传》《三国演义》，《聊斋志异》不在其中。",
+    "category": "history",
+    "difficulty": "easy"
+  },
+  {
+    "question": "《孙子兵法》的作者是？",
+    "options": [
+      "孙膑",
+      "孙武",
+      "诸葛亮",
+      "曹操"
+    ],
+    "answer": 1,
+    "explanation": "《孙子兵法》由春秋时期军事家孙武所著，是世界上最早的军事著作之一。",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "question": "清明节的起源与哪位历史人物有关？",
+    "options": [
+      "屈原",
+      "介子推",
+      "伍子胥",
+      "范仲淹"
+    ],
+    "answer": 1,
+    "explanation": "清明节源于晋文公悼念介子推的故事，后发展为祭祖扫墓的传统节日。",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "question": "AGI的中文意思是？",
+    "options": [
+      "人工通用智能",
+      "人工生成智能",
+      "自动化通用接口",
+      "高级图形界面"
+    ],
+    "answer": 0,
+    "explanation": "AGI是Artificial General Intelligence的缩写，指具有人类级别通用智能的AI系统。",
+    "category": "tech",
+    "difficulty": "hard"
   }
 ]
