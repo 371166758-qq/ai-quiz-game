@@ -388,5 +388,122 @@
     "explanation": "AGI是Artificial General Intelligence的缩写，指具有人类级别通用智能的AI系统。",
     "category": "tech",
     "difficulty": "hard"
+  },
+  {
+    "question": "清明节是二十四节气中的第几个？",
+    "options": [
+      "第三",
+      "第四",
+      "第五",
+      "第六"
+    ],
+    "answer": 2,
+    "explanation": "清明是二十四节气中的第五个节气，通常在公历4月4日或5日。",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "question": "清明节与哪个传统节日合并而来？",
+    "options": [
+      "元宵节",
+      "寒食节",
+      "上巳节",
+      "端午节"
+    ],
+    "answer": 1,
+    "explanation": "清明节融合了寒食节的习俗，寒食节是为了纪念介子推而设立的。",
+    "category": "history",
+    "difficulty": "hard"
+  },
+  {
+    "question": "2025年获得诺贝尔物理学奖的AI相关领域是？",
+    "options": [
+      "机器学习",
+      "神经网络",
+      "量子计算",
+      "自然语言处理"
+    ],
+    "answer": 1,
+    "explanation": "2024年诺贝尔物理学奖授予了神经网络领域的先驱，表彰其对机器学习的奠基性贡献。",
+    "category": "tech",
+    "difficulty": "medium"
+  },
+  {
+    "question": "AI绘画工具Midjourney的特点是？",
+    "options": [
+      "只能生成动漫风格",
+      "需要专业绘画技能",
+      "通过文字描述生成图像",
+      "只能处理照片"
+    ],
+    "answer": 2,
+    "explanation": "Midjourney是一款AI图像生成工具，用户输入文字描述即可生成高质量图像。",
+    "category": "tech",
+    "difficulty": "easy"
+  },
+  {
+    "question": "中国的\"新三样\"出口产品是指？",
+    "options": [
+      "服装、鞋帽、玩具",
+      "新能源汽车、锂电池、光伏产品",
+      "手机、电脑、家电",
+      "钢铁、水泥、玻璃"
+    ],
+    "answer": 1,
+    "explanation": "新三样指新能源汽车、锂电池、光伏产品，是中国外贸新增长点。",
+    "category": "tech",
+    "difficulty": "medium"
+  },
+  {
+    "question": "杭州西湖的\"苏堤\"是为纪念哪位诗人而建？",
+    "options": [
+      "李白",
+      "杜甫",
+      "苏轼",
+      "白居易"
+    ],
+    "answer": 2,
+    "explanation": "苏堤是苏轼（苏东坡）任杭州知州时主持修建的，故以其姓命名。",
+    "category": "history",
+    "difficulty": "medium"
+  },
+  {
+    "question": "中国空间站\"天宫\"的核心舱叫什么？",
+    "options": [
+      "问天",
+      "梦天",
+      "天和",
+      "神舟"
+    ],
+    "answer": 2,
+    "explanation": "天和核心舱是中国空间站的主控舱，问天和梦天是实验舱。",
+    "category": "tech",
+    "difficulty": "medium"
+  },
+  {
+    "question": "以下哪种动物是中国的\"国宝\"？",
+    "options": [
+      "金丝猴",
+      "大熊猫",
+      "东北虎",
+      "朱鹮"
+    ],
+    "answer": 1,
+    "explanation": "大熊猫是中国特有的珍稀动物，被誉为\"国宝\"和活化石。",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "question": "中国哪座城市被称为\"春城\"？",
+    "options": [
+      "广州",
+      "厦门",
+      "昆明",
+      "三亚"
+    ],
+    "answer": 2,
+    "explanation": "昆明因四季如春、气候宜人，被称为\"春城\"。",
+    "category": "nature",
+    "difficulty": "easy"
   }
 ]
